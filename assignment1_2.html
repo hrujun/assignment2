@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+   
+<form action="#" method="post">
+                         <label for=name">姓名:</label>
+                          <input name="name" type="text" id="name" tabindex="1" placeholder="Your name"
+                          maxlength="10" required/>
+                       <br>
+                       <label for="select-choice">學院:</label>                         
+                      <select name="YourCollege">
+                      <option value="Communication">傳播學院</option>
+                      <option value="LiberalArts">文學院</option>
+                      <option value="SocialScience"> 社科學院 </option>
+                      <option value="Commerce">商學院</option>
+                      <option value="Science">理學院</option>
+                      <option value="Law">法學院</option>
+                      <option value="Education">教育學院</option>
+                      <option value=International Affairs>國際事務學院</option>
+                      <option value="ForeignLanguages">外國語文學院
+                      </option>
+                      </select>
+                       <br>
+                        <label for="phone">手機:</label>
+                        <input name="phone" type="text" id="phone" tabindex="2" placeholder="Your phone" maxlength="10" required pattern="[0-9]{10}"/>
+                      <br>
+                      <label for="email">Email:</label>
+                        <input name="email" type="email" id="email" tabindex="3" placeholder="you@somewhere.com" required/>
+                        <br>
+                        <label for="birthday">生日:</label>
+                          <input name="birthday" type="date" id="birthday" tabindex="4" placeholder="Your birthday"/>
+                    <div>
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
+  </body>
+</html>
